@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
 const WS_URL = process.env.REACT_APP_WS_URL || "ws://127.0.0.1:8000";
+console.log(API_URL,WS_URL)
 
 function App() {
   const [authMode, setAuthMode] = useState("login");
